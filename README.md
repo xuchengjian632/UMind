@@ -1,6 +1,11 @@
 <h1 align="center">UMind: A Unified Multitask Network for Zero-Shot M/EEG Visual Decoding</h1>
 
-[![img](https://camo.githubusercontent.com/02423351f8603a83f3750740eb84f6e01da74088801cb3fd6ed4d294b970a96d/687474703a2f2f696d672e736869656c64732e696f2f62616467652f50617065722d61727869762e323430332e30373732312d4233314231422e737667)](https://arxiv.org/abs/2509.14772)
+<p align="center">
+  <a href="#">
+  <p align="center">
+    <a href='https://arxiv.org/abs/2509.14772'><img src='http://img.shields.io/badge/Paper-arxiv.2509.14772-B31B1B.svg'></a>
+  </p>
+</p>
 
 ## Abstract
 
@@ -17,18 +22,37 @@
 <div align="center">The reconstruction cases based on EEG.</div>
 
 ## Datasets
-1. [Things-EEG2](https://www.sciencedirect.com/science/article/pii/S1053811922008758?via%3Dihub)
-2. [Things-MEG](https://elifesciences.org/articles/82580) 
+1. [Things-EEG2](https://osf.io/b83fj/overview)
+2. [Things-MEG](https://openneuro.org/datasets/ds004212/versions/2.0.0) 
 
-## M/EEG pre-processing
-### Script path
+
+
+## Multimodal data preparation
+### M/EEG pre-processing
 - `./EEG-preprocessing/`
 - `./MEG-preprocessing/`
+### Image and corresponding text preparation
+
+- coarse-grained and fine-grained text generation
+
+```
+python detail_text_generation.py
+```
+
+- image and text features from pretrained model
+
+```
+python img_text_feature_load.py
+```
+
 ### Data path 
 - raw coarse-grained text data: `./data/class_names.txt`
-- raw fine-grained text data: `./data/class_names.txt`
+- raw fine-grained text data: `./data/detail_caption.txt`
 - proprocessed eeg data: `./Data/Things-EEG2/Preprocessed_data_250Hz/`
-- proprocessed image and text data: `ViT-H-14_detail_class_features_train.pt`
+- proprocessed image and text data: `ViT-H-14_detail_class_features.pt`
+
+
+
 ## Visual Decoding
 ### Environment setup
 
