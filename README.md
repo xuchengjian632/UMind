@@ -1,6 +1,6 @@
 <h1 align="center">UMind: A Unified Multitask Network for Zero-Shot M/EEG Visual Decoding</h1>
 
-This repository is the official implementation of UMind.  [📄 Paper](https://arxiv.org/pdf/2412.01720) 
+This repository is the official implementation of UMind.  [📄 Paper](https://arxiv.org/abs/2509.14772) 
 
 ## Abstract
 
