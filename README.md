@@ -1,11 +1,6 @@
 <h1 align="center">UMind: A Unified Multitask Network for Zero-Shot M/EEG Visual Decoding</h1>
 
-<p align="center">
-  <a href="#">
-  <p align="center">
-    <a href='https://arxiv.org/abs/2509.14772'><img src='http://img.shields.io/badge/Paper-arxiv.2509.14772-B31B1B.svg'></a>
-  </p>
-</p>
+This repository is the official implementation of UMind.  [📄 Paper](https://arxiv.org/pdf/2412.01720) 
 
 ## Abstract
 
@@ -45,7 +40,7 @@ python detail_text_generation.py
 python img_text_feature_load.py
 ```
 
-### Data path 
+### Data path
 - raw coarse-grained text data: `./data/class_names.txt`
 - raw fine-grained text data: `./data/detail_caption.txt`
 - proprocessed eeg data: `./Data/Things-EEG2/Preprocessed_data_250Hz/`
