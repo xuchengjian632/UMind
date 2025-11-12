@@ -102,6 +102,20 @@ python EEG_image_generation.py
 python recon_metrics.py
 ```
 
+
+
+
+
+## Acknowledgment
+
+We would like to express our sincere gratitude to the authors of the following works for their valuable contributions, which have greatly inspired and guided our research:
+
+1. *“[Decoding Natural Images from EEG for Object Recognition](https://arxiv.org/abs/2308.13234)”* ;
+2. *“[Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion](https://arxiv.org/abs/2403.07721)”*;
+3. *“[Reconstructing the Mind’s Eye: fMRI-to-Image with Contrastive Learning and Diffusion Priors](https://arxiv.org/abs/2305.18274)”*；
+
+
+
 ## Citation
 
 Hope this code is helpful. I would appreciate you citing us in your paper. 😊
