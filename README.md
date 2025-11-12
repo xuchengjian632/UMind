@@ -17,8 +17,8 @@ This repository is the official implementation of UMind.  [📄 Paper](https://a
 <div align="center">The reconstruction cases based on EEG.</div>
 
 ## Datasets
-1. [Things-EEG2](https://osf.io/b83fj/overview)
-2. [Things-MEG](https://openneuro.org/datasets/ds004212/versions/2.0.0) 
+1. [THINGS-EEG](https://osf.io/b83fj/overview)
+2. [THINGS-MEG](https://openneuro.org/datasets/ds004212/versions/2.0.0) 
 
 
 
@@ -40,12 +40,22 @@ python detail_text_generation.py
 python img_text_feature_load.py
 ```
 
+- prompt embeddings and pooled prompt embeddings for reconstruction
+
+```
+python text_features_load_SDXL.py
+```
+
+
+
 ### Data path
+
 - raw coarse-grained text data: `./data/class_names.txt`
 - raw fine-grained text data: `./data/detail_caption.txt`
-- proprocessed eeg data: `./Data/Things-EEG2/Preprocessed_data_250Hz/`
+- proprocessed eeg data: `./data/Things-EEG2/Preprocessed_data_250Hz/`
 - proprocessed image and text data: `ViT-H-14_detail_class_features.pt`
 
+- prompt embeddings and pooled prompt embeddings: `./data/SDXL-text-encoder_prompt_embeds.pt`
 
 
 ## Visual Decoding
