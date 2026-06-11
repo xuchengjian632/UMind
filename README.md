@@ -9,11 +9,11 @@
 </p>
 ## Abstract
 
-UMind is a unified multitask network for zero-shot M/EEG visual decoding. It jointly optimizes retrieval, classification, and reconstruction objectives, enabling neural representations to benefit from complementary visual and semantic supervision.
+UMind is a unified multitask network for zero-shot M/EEG visual decoding. It provides a coherent framework for retrieval, classification, and reconstruction by aligning neural signals with pretrained visual and text representations.
 
-- **Unified multitask framework**: UMind supports zero-shot M/EEG-based retrieval, classification, and image reconstruction within a single learning framework, improving feature sharing and task-level generalization.
-- **Multimodal alignment strategy**: The model aligns M/EEG signals with image and text representations, and introduces dual-granularity textual supervision to strengthen neural-visual and neural-semantic correspondence.
-- **Dual-conditional diffusion reconstruction**: Neural visual and semantic features are separately extracted and used as complementary conditions for diffusion-based image generation, producing more faithful and semantically consistent reconstructions.
+- **Unified multitask framework**: UMind supports zero-shot M/EEG-based retrieval, classification, and image reconstruction within a unified multimodal framework, offering a consistent interface for multiple visual decoding tasks.
+- **Multimodal alignment strategy**: UMind aligns M/EEG signals with image and text representations, and leverages dual-granularity textual information to model both neural-visual and neural-semantic correspondence.
+- **Dual-conditional diffusion reconstruction**: Neural visual and semantic features are separately extracted and used as dual conditions for diffusion-based image generation, supporting faithful and semantically consistent reconstruction.
 
 ![UMind framework](Figs/framework.png)
 
@@ -162,3 +162,4 @@ If this repository is helpful for your research, please consider citing our pape
   year={2025}
 }
 ```
+
