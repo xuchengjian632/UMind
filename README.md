@@ -7,6 +7,7 @@
 <p align="center">
   📄 <a href="https://arxiv.org/abs/2509.14772">Paper</a>
 </p>
+
 ## Abstract
 
 UMind is a unified multitask network for zero-shot M/EEG visual decoding. It provides a coherent framework for retrieval, classification, and reconstruction by aligning neural signals with pretrained visual and text representations.
@@ -162,4 +163,5 @@ If this repository is helpful for your research, please consider citing our pape
   year={2025}
 }
 ```
+
 
